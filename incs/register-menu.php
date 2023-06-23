@@ -5,8 +5,9 @@
 */
 
 register_nav_menus([
-	'main' => 'Menu Principal',
-	'footer' => 'Bas de page',
+	'main'     => 'Menu Principal',
+	'footer'   => 'Bas de page',
+	'footer-2' => 'Bas de page 2',
 ]);
 
 ?>
