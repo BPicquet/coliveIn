@@ -78,15 +78,140 @@
             }
         }
 
-        > a {
+        > div:nth-child(4) {
             display: flex;
             justify-content: center;
+            align-items: center;
             
-            > button {
-                background-color: $salmon-footer;
+            a {
+                > button {
+                    background-color: $salmon-footer;
+    
+                    &:hover {
+                        background-color: $black-primary;
+                    }
+                }
+            }
+        }
+    }
+}
 
-                &:hover {
-                    background-color: $black-primary;
+.frontpage-activities {
+    background-color: $white-secondary;
+
+    &__container {
+        padding: 40px 20px;
+
+        > p {
+            margin-bottom: 60px;
+        }
+    
+        &__card-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 60px;
+
+            &__card {
+                flex: 1 0 40%;
+                display: flex;
+                align-items: start;
+                margin-bottom: 15px;
+
+                i {
+                   font-size: 60px;
+                   margin-right: 15px;
+                   color: $salmon-primary; 
+                }
+
+                > div {
+
+                    h3 {
+                        margin: 10px 0 5px 0;
+                        color: $salmon-primary;
+                    }
+
+                    p {
+                        margin: 0;
+                        font-size: 1.2em;
+                    }
+                }
+            }
+        }
+
+        > div:nth-child(4) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            a {
+                > button {
+                    background-color: $salmon-footer;
+    
+                    &:hover {
+                        background-color: $black-primary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.frontpage-prestations {
+    background-color: $white-secondary;
+
+    &__container {
+        padding: 40px 20px;
+
+        > p {
+            margin-bottom: 60px;
+        }
+    
+        &__card-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 60px;
+
+            &__card {
+                flex: 1 0 40%;
+                display: flex;
+                align-items: start;
+                margin-bottom: 15px;
+
+                i {
+                   font-size: 60px;
+                   margin-right: 15px;
+                   color: $salmon-primary; 
+                }
+
+                > div {
+
+                    h3 {
+                        margin: 10px 0 5px 0;
+                        color: $salmon-primary;
+                    }
+
+                    p {
+                        margin: 0;
+                        font-size: 1.2em;
+                    }
+                }
+            }
+        }
+
+        > div:nth-child(4) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            a {
+                > button {
+                    background-color: $salmon-footer;
+    
+                    &:hover {
+                        background-color: $black-primary;
+                    }
                 }
             }
         }

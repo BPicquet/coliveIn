@@ -61,9 +61,103 @@
 				</div>
 			</div>
 		</div>
-		<a href="">
-			<button>En savoir plus <i class="fa-sharp fa-solid fa-right-long fa-sm"></i></button>
-		</a>
+		<div>
+			<a href=""><button>En savoir plus <i class="fa-sharp fa-solid fa-right-long fa-sm"></i></button></a>
+		</div>
+	</div>
+</section>
+
+<section id="frontpage-activities" class="frontpage-activities">
+	<div class="frontpage-activities__container container">
+		<h2>Chez Colive-In tout est possible !</h2>
+		<p>Colive’in et ses partenaires forment une équipe de confiance autour d’un projet commun : faire de votre quotidien un moment de partage et de découverte à travers une multitude d’activités.</p>
+		<div class="frontpage-activities__container__card-wrapper">
+			<div class="frontpage-activities__container__card-wrapper__card">
+				<i class="fa-solid fa-heart"></i>
+				<div>
+					<h3>Bien-être</h3>
+					<p>Yoga, relaxation, expression corporelle...</p>
+				</div>
+			</div>
+			<div class="frontpage-activities__container__card-wrapper__card">
+				<i class="fa-solid fa-heart-pulse"></i>
+				<div>
+					<h3>Sportives</h3>
+					<p>Cours individuel ou collectif, randonnée organisée...</p>
+				</div>
+			</div>
+			<div class="frontpage-activities__container__card-wrapper__card">
+				<i class="fa-solid fa-hand"></i>
+				<div>
+					<h3>Manuelles</h3>
+					<p>Cours de cuisine, de poterie, d'informatique...</p>
+				</div>
+			</div>
+			<div class="frontpage-activities__container__card-wrapper__card">
+				<i class="fa-solid fa-landmark"></i>
+				<div>
+					<h3>Culturelles</h3>
+					<p>Voyage, visite de musée, sortie cinéma...</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<a href=""><button>En savoir plus <i class="fa-sharp fa-solid fa-right-long fa-sm"></i></button></a>
+		</div>
+	</div>
+</section>
+
+<section id="frontpage-prestations" class="frontpage-prestations">
+	<div class="frontpage-prestations__container container">
+		<h2>Nos services sur mesure</h2>
+		<p>L’ensemble des partenaires Colive’in seront à vos côtés pour vous accompagner au quotidien si vous en avez besoin. Notre promesse : vous apportez une prise en charge de qualité et une tranquillité d’esprit. Ces services peuvent bénéficier d’un crédit d’impôt.</p>
+		<div class="frontpage-prestations__container__card-wrapper">
+			<div class="frontpage-prestations__container__card-wrapper__card">
+				<i class="fa-solid fa-broom"></i>
+				<div>
+					<h3>Aide-ménagère</h3>
+					<p>Nettoyage, repassage, lessive.</p>
+				</div>
+			</div>
+			<div class="frontpage-prestations__container__card-wrapper__card">
+				<i class="fa-solid fa-handshake-angle"></i>
+				<div>
+					<h3>Aide à l'autonomie</h3>
+					<p>Aide au lever et au coucher, aide à la toilette, présence de nuit</p>
+				</div>
+			</div>
+			<div class="frontpage-prestations__container__card-wrapper__card">
+				<i class="fa-solid fa-book"></i>
+				<div>
+					<h3>Assistance administrative</h3>
+					<p>Gestion du courrier, classement des documents, démarches administratives</p>
+				</div>
+			</div>
+			<div class="frontpage-prestations__container__card-wrapper__card">
+				<i class="fa-solid fa-user-group"></i>
+				<div>
+					<h3>Aide aux repas</h3>
+					<p>Courses et préparations des repas, aide à la prise des repas</p>
+				</div>
+			</div>
+			<div class="frontpage-prestations__container__card-wrapper__card">
+				<i class="fa-solid fa-utensils"></i>
+				<div>
+					<h3>Accompagnement</h3>
+					<p>Courses, promenades, sorties culturelles</p>
+				</div>
+			</div>
+			<div class="frontpage-prestations__container__card-wrapper__card">
+				<i class="fa-solid fa-syringe"></i>
+				<div>
+					<h3>Coordination de soin</h3>
+					<p>Visite infirmier, rdv de santé...</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<a href=""><button>En savoir plus <i class="fa-sharp fa-solid fa-right-long fa-sm"></i></button></a>
+		</div>	
 	</div>
 </section>
 
