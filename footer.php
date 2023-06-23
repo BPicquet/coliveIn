@@ -1,3 +1,5 @@
+    <?= get_template_part('./template-parts/footer-brochure'); ?>
+    
     <footer id="footer" class="footer">
         <div class="footer__container container">
             <div class="footer__container__top">
