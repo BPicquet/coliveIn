@@ -1,0 +1,18 @@
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $black-primary;
+    background-color: $salmon-primary;
+    border-radius: 100px;
+    padding: 15px 60px;
+    border: none;
+    transition: all ease 0.4s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $black-primary;
+        color: $white-primary;
+    }
+}
