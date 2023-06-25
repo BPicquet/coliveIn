@@ -161,4 +161,12 @@
 	</div>
 </section>
 
+<section id="frontpage-offers" class="frontpage-offers">
+	<div class="frontpage-offers__container container">
+		<h2>Découvrez les offres Colive'in</h2>
+		<p>Notre mission : rendre la colocation pour séniors autonomes accessible à tous ! </p>
+		<img src="<?= get_template_directory_uri() . '/assets/img/colivein-offers.png' ?>" alt="">
+	</div>
+</section>
+
 <?php get_footer(); ?>

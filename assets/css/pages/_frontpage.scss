@@ -217,3 +217,15 @@
         }
     }
 }
+
+.frontpage-offers {
+    background-color: $white-secondary;
+
+    &__container {
+        padding: 40px 20px;
+
+        > img {
+            max-width: 100%;
+        }
+    }
+}
