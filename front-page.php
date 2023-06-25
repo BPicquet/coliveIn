@@ -169,4 +169,34 @@
 	</div>
 </section>
 
+<section id="frontpage-founders" class="frontpage-founders">
+	<div class="frontpage-founders__container container">
+		<h2>Les fondateurs</h2>
+		<div class="frontpage-founders__container__listing-founders">
+			<div>
+				<h3>Tony</h3>
+				<img src="<?= get_template_directory_uri() . '/assets/img/tony.jpeg' ?>" alt="">
+			</div>
+			<div>
+				<h3>Enzo</h3>
+				<img src="<?= get_template_directory_uri() . '/assets/img/enzo.jpeg' ?>" alt="">
+			</div>
+		</div>
+		<div>
+			<a href=""><button>Découvrir notre histoire <i class="fa-sharp fa-solid fa-right-long fa-sm"></i></button></a>
+		</div>
+	</div>
+</section>
+
+<section id="frontpage-partners" class="frontpage-partners">
+	<div class="frontpage-partners__container container">
+		<h2>Ils nous font confiance</h2>
+		<div class="frontpage-partners__container__partners-wrapper">
+			<img src="<?= get_template_directory_uri() . '/assets/img/Kovan.png' ?>" alt="">
+			<img src="<?= get_template_directory_uri() . '/assets/img/mbs.png' ?>" alt="">
+			<img src="<?= get_template_directory_uri() . '/assets/img/superprof.png' ?>" alt="">
+		</div>
+	</div>
+</section>
+
 <?php get_footer(); ?>
