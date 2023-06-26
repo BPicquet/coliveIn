@@ -1,3 +1,7 @@
+/* 
+* Footer Brochure
+*/
+
 .footer-brochure {
     position: relative;
     z-index: 1;
@@ -57,6 +61,33 @@
             padding: 20px;
             font-size: 1.1em;
             font-weight: 600;
+        }
+    }
+}
+
+/* Small devices */
+
+@media screen and (max-width: 750px) {
+    .footer-brochure {
+        padding: 0 40px;
+
+        h2 {
+            font-size: 46px;
+        }
+
+        &__information {
+            top: -50px;
+            right: 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .footer-brochure {
+        
+        h2 {
+            font-size: 30px;
+            text-align: center;
         }
     }
 }

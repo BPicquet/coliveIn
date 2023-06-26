@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "sass --watch ./assets/css/main.scss:./public/css/style.css --style compressed",
-    "build": "esbuild ./assets/js/index.js --bundle --outfile=./public/js/bundle.js"
+    "dev": "nodemon --watch index.js --exec \"npm run build\"",
+    "build": "esbuild ./assets/js/index.js --bundle --outfile=./public/js/bundle.js --define:global=window"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "esbuild": "^0.18.9",
-    "sass": "^1.63.6"
+    "sass": "^1.63.6",
+    "simplelightbox": "^2.14.1"
   }
 }

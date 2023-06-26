@@ -1,3 +1,7 @@
+/* 
+* Footer
+*/
+
 .footer {
     padding: 50px 20px;
     background-color: $salmon-footer;
@@ -55,6 +59,8 @@
                 }
             }
         }
+
+        /* Small devices */
 
         @media screen and (max-width: 800px) {
             &__top {
@@ -122,6 +128,8 @@
             }
         }
 
+        /* Small devices */
+
         @media screen and (max-width: 800px) {
             &__bottom {
                 flex-direction: column;
@@ -129,6 +137,8 @@
                 align-items: center;
             }
         }
+
+        /* Small devices */
 
         @media screen and (max-width: 600px) {
             &__bottom {

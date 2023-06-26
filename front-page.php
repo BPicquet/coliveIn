@@ -5,7 +5,8 @@
 		<video
 			class="frontpage-subheader__container__video"
 			muted
-			autoplay>
+			autoplay
+			loop>
 				<source src="<?= get_template_directory_uri() . '/assets/img/colivein-hero-video.mp4' ?>" type="video/mp4" />
 		</video>
 		<div>
@@ -165,7 +166,11 @@
 	<div class="frontpage-offers__container container">
 		<h2>Découvrez les offres Colive'in</h2>
 		<p>Notre mission : rendre la colocation pour séniors autonomes accessible à tous ! </p>
-		<img src="<?= get_template_directory_uri() . '/assets/img/colivein-offers.png' ?>" alt="">
+
+		<div class="frontpage-offers__container__gallery">
+			<a href="<?= get_template_directory_uri() . '/assets/img/colivein-offers.png' ?>"><img src="<?= get_template_directory_uri() . '/assets/img/colivein-offers.png' ?>" alt=""></a>
+		</div>
+		
 	</div>
 </section>
 

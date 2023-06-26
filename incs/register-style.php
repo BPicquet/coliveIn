@@ -9,7 +9,9 @@ function coliveIn_register_assets() {
     wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 
     wp_enqueue_style('coliveIn', get_template_directory_uri() . '/public/css/style.css', array(), '1.0');
+    wp_enqueue_style('simpleLightbox', get_template_directory_uri() . '/node_modules/simplelightbox/dist/simple-lightbox.css?v2.14.1', array(), '1.0');
 
+    wp_enqueue_script('simpleLightbox', get_template_directory_uri() . '/node_modules/simplelightbox/dist/simple-lightbox.js?v2.14.0"', array(), '1.0');
     wp_enqueue_script('coliveIn', get_template_directory_uri() . '/public/js/bundle.js', array(), '1.0');
     
 }
