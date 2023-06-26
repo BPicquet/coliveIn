@@ -167,10 +167,9 @@
 		<h2>Découvrez les offres Colive'in</h2>
 		<p>Notre mission : rendre la colocation pour séniors autonomes accessible à tous ! </p>
 
-		<div class="frontpage-offers__container__gallery">
+		<div class="frontpage-offers__container__gallery colivein-gallery">
 			<a href="<?= get_template_directory_uri() . '/assets/img/colivein-offers.png' ?>"><img src="<?= get_template_directory_uri() . '/assets/img/colivein-offers.png' ?>" alt=""></a>
 		</div>
-		
 	</div>
 </section>
 

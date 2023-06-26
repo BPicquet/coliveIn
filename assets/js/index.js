@@ -16,6 +16,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     /* Simple Lightbox */
     (function() {
-        var $gallery = new SimpleLightbox('.frontpage-offers__container__gallery a', {});
+        var $gallery = new SimpleLightbox('.colivein-gallery a', {});
     })();
 });

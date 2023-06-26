@@ -1648,7 +1648,7 @@
     }
     toggleMenu();
     (function() {
-      var $gallery = new import_simplelightbox.default(".frontpage-offers__container__gallery a", {});
+      var $gallery = new import_simplelightbox.default(".colivein-gallery a", {});
     })();
   });
 })();
