@@ -23,7 +23,6 @@
                     wp_nav_menu([
                         'theme_location' => 'main',
                         'container' => 'ul',
-                        
                     ]); 
                 ?>
                 <div class="header__container__button">
@@ -32,5 +31,10 @@
                     </a>
                 </div>
             </nav>
+            <div class="header__container__burger">
+                <span></span>
+                <p>Menu</p>
+            </div>
+            <div class="header__container__overlay"></div>
         </div>
     </header>

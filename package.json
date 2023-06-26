@@ -11,7 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "esbuild": "^0.18.9",
-    "sass": "^1.63.6",
-    "simplelightbox": "^2.14.1"
+    "sass": "^1.63.6"
   }
 }
