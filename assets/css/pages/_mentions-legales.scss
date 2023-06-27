@@ -1,0 +1,36 @@
+/* 
+* Legal Notice Title
+*/
+
+.legal-notice-title {
+    background-color: $salmon-footer;
+
+    &__container {
+        padding: 60px 20px;
+
+        > h1 {
+            font-weight: 700;
+            font-size: 32px;
+        }
+
+        > p {
+            color: $black-primary;
+        }
+    }
+}
+
+
+/* 
+* Legal Notice Content
+*/
+
+.legal-notice-content {
+
+    &__container {
+        padding: 60px 20px;
+
+        > p {
+            color: $black-primary;
+        }
+    }
+}
