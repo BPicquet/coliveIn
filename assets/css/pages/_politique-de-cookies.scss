@@ -1,0 +1,32 @@
+/* 
+* Cookie policy Title
+*/
+
+.cookie-policy-title {
+    background-color: $salmon-footer;
+
+    &__container {
+        padding: 60px 20px;
+
+        > h1 {
+            font-weight: 700;
+            font-size: 32px;
+        }
+    }
+}
+
+
+/* 
+* Cookie policy Content
+*/
+
+.cookie-policy-content {
+
+    &__container {
+        padding: 60px 20px;
+
+        > p {
+            color: $black-primary;
+        }
+    }
+}
