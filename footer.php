@@ -1,4 +1,8 @@
-    <?= get_template_part('./template-parts/footer-brochure'); ?>
+    <?php
+        if (!is_page_template('page-contact.php')) { 
+            echo get_template_part('./template-parts/footer-brochure'); 
+        }
+    ?>
     
     <footer id="footer" class="footer">
         <div class="footer__container container">
@@ -19,7 +23,7 @@
                 </div>
             </div>
             <div class="footer__container__bottom">
-                <p>Ensemble, vivons une seconde jeunesse.</p>
+                <p><?php bloginfo('description'); ?></p>
                 <div>
                     <?php 
                         wp_nav_menu([

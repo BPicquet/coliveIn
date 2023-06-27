@@ -63,7 +63,7 @@
 			</div>
 		</div>
 		<div>
-			<a href=""><button>En savoir plus <i class="fa-sharp fa-solid fa-right-long fa-sm"></i></button></a>
+			<a href="<?= esc_url( get_permalink(9) ); ?>"><button>En savoir plus <i class="fa-sharp fa-solid fa-right-long fa-sm"></i></button></a>
 		</div>
 	</div>
 </section>
@@ -103,7 +103,7 @@
 			</div>
 		</div>
 		<div>
-			<a href=""><button>En savoir plus <i class="fa-sharp fa-solid fa-right-long fa-sm"></i></button></a>
+			<a href="<?= esc_url( get_permalink(11) ); ?>"><button>En savoir plus <i class="fa-sharp fa-solid fa-right-long fa-sm"></i></button></a>
 		</div>
 	</div>
 </section>
@@ -156,9 +156,6 @@
 				</div>
 			</div>
 		</div>
-		<div>
-			<a href=""><button>En savoir plus <i class="fa-sharp fa-solid fa-right-long fa-sm"></i></button></a>
-		</div>	
 	</div>
 </section>
 
@@ -187,7 +184,7 @@
 			</div>
 		</div>
 		<div>
-			<a href=""><button>Découvrir notre histoire <i class="fa-sharp fa-solid fa-right-long fa-sm"></i></button></a>
+			<a href="<?= esc_url( get_permalink(13) ); ?>"><button>Découvrir notre histoire <i class="fa-sharp fa-solid fa-right-long fa-sm"></i></button></a>
 		</div>
 	</div>
 </section>

@@ -26,7 +26,7 @@
                     ]); 
                 ?>
                 <div class="header__container__button">
-                    <a href="">
+                    <a href="<?= esc_url( get_permalink(33) ); ?>">
                         <button>Demande de </br> brochure</button>
                     </a>
                 </div>
