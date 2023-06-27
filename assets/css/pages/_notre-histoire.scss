@@ -1,0 +1,113 @@
+/* 
+* Our story Subheader
+*/
+
+.our-story-subheader {
+    background-color: $white-primary;
+
+    &__container {
+
+        &__founders {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 80px 20px 20px 20px;
+
+            > div {
+                width: 300px;
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+    
+                > h3 {
+                    font-size: 1.5em;
+                    margin: 20px 0 0 0;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 400;
+                }
+    
+                > img {
+                    width: 150px;
+                    border-radius: 50%;
+                }
+            }
+
+            > div:nth-child(1) {
+                background-color: rgba(237, 186, 149, 1);
+            }
+    
+            > div:nth-child(2) {
+                background-color: rgba(247, 225, 211, 0.9);
+            }
+        }
+
+        &__presentation {
+            padding: 40px 20px;
+
+            > h1 {
+                font-size: 32px;
+                font-weight: 700;
+            }
+
+            > p {
+                font-size: 19px;
+                font-weight: 400;
+                line-height: 28px;
+                color: $black-primary;
+            }
+        }
+
+    }
+}
+
+/* Small devices */
+
+@media screen and (max-width: 750px) {
+    .our-story-subheader {
+    
+        &__container {
+    
+            &__founders {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                > div:nth-child(1) {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}
+
+
+/* 
+* Our story is born
+*/
+
+.our-story-is-born {
+    background-color: $salmon-primary;
+
+    &__container {
+        padding: 40px 20px;
+    }
+}
+
+/* 
+* Our story live
+*/
+
+.our-story-live {
+
+    &__container {
+        padding: 20px 20px 80px 20px;
+        display: flex;
+        justify-content: center;
+
+        > img {
+            max-width: 100%;
+        }
+    }
+}
