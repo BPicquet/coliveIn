@@ -9,16 +9,16 @@
             <div class="footer__container__top">
                 <div>
                     <img src="<?= get_template_directory_uri() . '/assets/img/logo-colivin-dark.png' ?>" alt="">
-                    <p>8 allée champêtre</p>
-                    <p>62161 Duisans</p>
-                    <p>Tél. 06 07 69 38 50</p>
+                    <p><?= carbon_get_theme_option('crb_theme_options_postal_adress'); ?></p>
+                    <p><?= carbon_get_theme_option('crb_theme_options_city'); ?></p>
+                    <p>Tél. <?= carbon_get_theme_option('crb_theme_options_phone_number'); ?></p>
                 </div>
                 <div>
                     <p>Suivez-nous sur les réseaux sociaux:</p>
                     <div>
-                        <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram fa-xl"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                        <a href="<?= carbon_get_theme_option('crb_theme_options_facebook'); ?>"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                        <a href="<?= carbon_get_theme_option('crb_theme_options_instagram'); ?>"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                        <a href="<?= carbon_get_theme_option('crb_theme_options_linkedin'); ?>"><i class="fa-brands fa-linkedin fa-xl"></i></a>
                     </div>
                 </div>
             </div>
